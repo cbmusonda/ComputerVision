@@ -7,7 +7,7 @@ We benchmarked each method on two widely used medical datasets—LA (Left Atrium
 
 All experiments were executed inside Google Colab, and each method’s official repository was either cloned or imported following the instructions below.
 
-## Methods Evaluated
+## ⭐Methods Evaluated
 1. FixMatch
    - Paper: https://arxiv.org/pdf/2109.09960
    - Consistency regularization + confidence thresholding.
