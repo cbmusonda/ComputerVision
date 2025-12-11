@@ -20,4 +20,17 @@ All experiments were executed inside Google Colab, and each method’s official 
 4. RCPS (Rectified Contrastive Pseudo Supervision)
    - Paper: https://arxiv.org/pdf/2301.05500
    - Contrastive pseudo-labeling with rectification to improve SSL robustness.
+
+## 📦Dataset Overview
+### 🏥 LA Dataset (Left Atrium)
+- 3D MRI volumes
+- Binary segmentation task
+- Requires 2D slice extraction + intensity normalization
+  
+### ❤️ ACDC Dataset
+- 3-class segmentation: LV cavity, RV cavity, myocardium
+- End-diastole and end-systole phases
+- Different preprocessing pipeline from LA dataset.
+  
+Both datasets were adapted so each SSL method could train consistently across both domains.
    
