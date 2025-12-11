@@ -23,7 +23,7 @@ We use RCPS to combine rectified pseudo supervision (with uncertainty-aware corr
 > The official RCPS code was provided as a ZIP archive rather than a public Git repo.  
 > For this project, the **RCPS ZIP file was manually uploaded directly into the Google Colab environment** and extracted there for training.  
 > A copy of that original archive is stored in this repository under:
-> `external_code/RCPS_original.zip`.
+> `external_code/RCPS-Main.zip`.
 
 ### 3. S4CVNet (When CNN Meet with ViT)
 **Paper:** “When CNN Meet with ViT: Towards Semi-Supervised Learning for Multi-Class Medical Image Semantic Segmentation”  
