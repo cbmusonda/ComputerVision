@@ -6,3 +6,18 @@ This repository contains a comprehensive evaluation of four state-of-the-art sem
 We benchmarked each method on two widely used medical datasets—LA (Left Atrium MRI) and ACDC (Cardiac MRI)—under challenging 10% and 20% labeled training conditions.
 
 All experiments were executed inside Google Colab, and each method’s official repository was either cloned or imported following the instructions below.
+
+## Methods Evaluated
+1. FixMatch
+   - Paper: https://arxiv.org/pdf/2109.09960
+     Consistency regularization + confidence thresholding.
+2. Meta Pseudo-Labels (MPL)
+   - Paper: https://arxiv.org/pdf/2109.09960
+     Learning teacher predictions using meta-gradients.
+3. ST++ (Student–Teacher Plus-Plus)
+   - Paper: https://arxiv.org/pdf/2208.06449
+     Progressive student-teacher refinement across training stages.
+4. RCPS (Rectified Contrastive Pseudo Supervision)
+   - Paper: https://arxiv.org/pdf/2301.05500
+     Contrastive pseudo-labeling with rectification to improve SSL robustness.
+   
