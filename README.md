@@ -57,8 +57,7 @@ Each method was trained using:
 | Folder             | Description                                                             |
 | ------------------ | ----------------------------------------------------------------------- |
 | `colab_notebooks/` | Training notebooks for each SSL method.                                 |
-| `docs/`            | CVPR-formatted research paper and the final project presentation        |
-| `results_summary/` | Final consolidated results, plots, and presentation materials.          |
+| `docs/`            | CVPR-formatted research paper and the final project presentation.        |
 
 ### 👥Contributors
 - Andrew C. Valles
