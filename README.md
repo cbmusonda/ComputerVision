@@ -32,11 +32,13 @@ CVML introduces a cross-view mutual learning scheme where multiple views/branche
 ## 📦Dataset Overview
 
 ### 🏥LA Dataset (Left Atrium)
+Dataset Link: 
 - 3D MRI volumes
 - Binary segmentation (left atrium vs background)
 - We sample 2D slices and apply intensity normalization and cropping.
 
 ### ❤️ACDC Dataset
+Dataset Link: 
 - Cine-MRI cardiac dataset with **4 segmentation classes**:
   1. Background  
   2. Right ventricle (RV) endocardium  
