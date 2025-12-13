@@ -1,4 +1,4 @@
-# Semi-Supervised Learning Comparison for Medical Image Segmentation
+# Analysis of Modern Advances in Medical Segmentation for Heart Applications
 
 ## Using LA and ACDC Datasets (10% & 20% Labeled Data)
 
@@ -57,8 +57,7 @@ Each method was trained using:
 | Folder             | Description                                                             |
 | ------------------ | ----------------------------------------------------------------------- |
 | `colab_notebooks/` | Training notebooks for each SSL method.                                 |
-| `experiments/`     | Saved metrics and plots from LA/ACDC at 10%/20% label splits.           |
-| `docs/`            | Detailed explanations, design decisions, and dataset preparation notes. |
+| `docs/`            | CVPR-formatted research paper and the final project presentation        |
 | `results_summary/` | Final consolidated results, plots, and presentation materials.          |
 
 ### 👥Contributors
