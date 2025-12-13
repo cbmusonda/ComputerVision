@@ -50,3 +50,25 @@ CVML introduces a cross-view mutual learning scheme where multiple views/branche
   4. Left ventricle (LV) endocardium  
 - Patients are also grouped into 5 diagnosis categories (NOR, MINF, DCM, HCM, RV), but in this project we focus on the **4-class segmentation task**.
 
+### 🔧 Project Workflow (Google Colab)
+Each method was trained using:
+- A unified dataset pipeline
+- Custom preprocessing tailored per dataset
+- Colab-based execution
+- Evaluation on 10% and 20% labeled subsets
+- Dice / IoU / precision-recall metrics
+- Visualization of segmentation predictions
+
+### 📁Repository Structure
+| Folder             | Description                                                             |
+| ------------------ | ----------------------------------------------------------------------- |
+| `colab_notebooks/` | Training notebooks for each SSL method.                                 |
+| `external_code/`   | Contains the original RCPS ZIP archive used in Colab.                   |
+| `experiments/`     | Saved metrics and plots from LA/ACDC at 10%/20% label splits.           |
+| `docs/`            | Detailed explanations, design decisions, and dataset preparation notes. |
+| `results_summary/` | Final consolidated results, plots, and presentation materials.          |
+
+### 👥Contributors
+i. Andrew C. Valles
+ii. Changwe B. Musonda
+iii. Manav P. Patel
