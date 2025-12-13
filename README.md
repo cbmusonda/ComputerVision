@@ -69,6 +69,6 @@ Each method was trained using:
 | `results_summary/` | Final consolidated results, plots, and presentation materials.          |
 
 ### 👥Contributors
-i. Andrew C. Valles
-ii. Changwe B. Musonda
-iii. Manav P. Patel
+- Andrew C. Valles
+- Changwe B. Musonda
+- Manav P. Patel
