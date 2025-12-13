@@ -5,7 +5,7 @@
 This repository contains a comprehensive evaluation of four state-of-the-art semi-supervised learning (SSL) methods applied to medical image segmentation.
 We benchmarked each method on two widely used medical datasets—LA (Left Atrium MRI) and ACDC (Cardiac MRI)—under challenging 10% and 20% labeled training conditions.
 
-All experiments were executed inside Google Colab, and each method’s official repository was either cloned or imported following the instructions below.
+All experiments were executed inside Google Colab, and each method’s official repository was cloned.
 
 ## ⭐Methods Evaluated
 
@@ -18,12 +18,6 @@ We implement MC-Net+, which uses a shared encoder and multiple decoders with a m
 **Paper:** “RCPS: Rectified Contrastive Pseudo Supervision for Semi-Supervised Medical Image Segmentation”  
 **Link:** https://arxiv.org/pdf/2301.05500  
 We use RCPS to combine rectified pseudo supervision (with uncertainty-aware correction) and voxel-level contrastive learning to improve class separability in the feature space.
-
-> **Implementation note:**  
-> The official RCPS code was provided as a ZIP archive rather than a public Git repo.  
-> For this project, the **RCPS ZIP file was manually uploaded directly into the Google Colab environment** and extracted there for training.  
-> A copy of that original archive is stored in this repository under:
-> `external_code/RCPS-Main.zip`.
 
 ### 3. S4CVNet (When CNN Meet with ViT)
 **Paper:** “When CNN Meet with ViT: Towards Semi-Supervised Learning for Multi-Class Medical Image Semantic Segmentation”  
@@ -63,7 +57,6 @@ Each method was trained using:
 | Folder             | Description                                                             |
 | ------------------ | ----------------------------------------------------------------------- |
 | `colab_notebooks/` | Training notebooks for each SSL method.                                 |
-| `external_code/`   | Contains the original RCPS ZIP archive used in Colab.                   |
 | `experiments/`     | Saved metrics and plots from LA/ACDC at 10%/20% label splits.           |
 | `docs/`            | Detailed explanations, design decisions, and dataset preparation notes. |
 | `results_summary/` | Final consolidated results, plots, and presentation materials.          |
