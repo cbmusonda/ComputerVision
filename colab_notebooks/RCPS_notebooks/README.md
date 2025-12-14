@@ -1,5 +1,5 @@
-#Dataset Setup Instructions
-##Required Dataset
+# Dataset Setup Instructions
+## Required Dataset
 The RCPS notebook requires the ACDC cardiac MRI dataset.
 Setup Steps
 1. Download Dataset to Google Drive
