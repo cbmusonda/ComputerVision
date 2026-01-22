@@ -7,7 +7,7 @@ We benchmarked each method on two widely used medical datasets, LA (Left Atrium 
 
 All experiments were executed inside Google Colab, and each method’s official repository was cloned.
 
-## ⭐Methods Evaluated
+## Methods Evaluated
 
 ### 1. MC-Net+ (Mutual Consistency Learning)
 **Paper:** “Mutual Consistency Learning for Semi-Supervised Medical Image Segmentation”  
@@ -29,15 +29,15 @@ S4CVNet is a semi-supervised framework that combines CNN and ViT in a dual-view 
 **Link:** https://doi.org/10.1145/3664647.3680699  
 CVML introduces a cross-view mutual learning scheme where multiple views/branches exchange pseudo-labels and consistency constraints to better leverage unlabeled data for segmentation.
 
-## 📦Dataset Overview
+## Dataset Overview
 
-### 🏥LA Dataset (Left Atrium)
+### LA Dataset (Left Atrium)
 Dataset Link: 
 - 3D MRI volumes
 - Binary segmentation (left atrium vs background)
 - We sample 2D slices and apply intensity normalization and cropping.
 
-### ❤️ACDC Dataset
+### ACDC Dataset
 Dataset Link: 
 - Cine-MRI cardiac dataset with **4 segmentation classes**:
   1. Background  
@@ -46,7 +46,7 @@ Dataset Link:
   4. Left ventricle (LV) endocardium  
 - Patients are also grouped into 5 diagnosis categories (NOR, MINF, DCM, HCM, RV), but in this project we focus on the **4-class segmentation task**.
 
-### 🔧 Project Workflow (Google Colab)
+### Project Workflow (Google Colab)
 Each method was trained using:
 - A unified dataset pipeline
 - Custom preprocessing tailored per dataset
@@ -55,13 +55,13 @@ Each method was trained using:
 - Dice / IoU / precision-recall metrics
 - Visualization of segmentation predictions
 
-### 📁Repository Structure
+### Repository Structure
 | Folder             | Description                                                             |
 | ------------------ | ----------------------------------------------------------------------- |
 | `colab_notebooks/` | Training notebooks for each SSL method.                                 |
 | `docs/`            | CVPR-formatted research paper and the final project presentation.        |
 
-### 👥Contributors
+### Contributors
 - Andrew C. Valles
 - Changwe B. Musonda
 - Manav P. Patel
